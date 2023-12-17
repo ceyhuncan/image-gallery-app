@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* those will be compiled into our main.css and 
+main.css will be added into our application 
+we will add this line on package.json scripts:
+"build:css": "postcss src/assets/tailwind.css -o src/assets/main.css "
+
+our source is tailwind.css and output will be main.js in assets folder
+*/
+
